@@ -4,7 +4,7 @@ public abstract class Ride {
     private int minAge;
     private int height;
 
-    public Ride(double price, int minAge, int height){
+    public Ride(double price, int minAge, int height) {
         this.price = price;
         this.minAge = minAge;
         this.height = height;
@@ -34,17 +34,25 @@ public abstract class Ride {
         this.height = height;
     }
 
-    public boolean checkIftallEnough(Customer customer){
+    public boolean checkIftallEnough(Customer customer) {
         return customer.getHeight() >= this.height;
     }
 
-    public boolean checkIfOldEnough(Customer customer){
+    public boolean checkIfOldEnough(Customer customer) {
         return customer.getAge() >= this.minAge;
     }
 
-    public boolean checkIfCustomerHasEnoughMoney(Customer customer){
+    public boolean checkIfCustomerHasEnoughMoney(Customer customer) {
         return customer.getWallet() >= this.price;
     }
 
-
+    public boolean canRide(Customer customer) {
+        if ((customer.getWallet() >= this.price) && (customer.getHeight() >= this.height) && (customer.getAge() >= this.minAge))
+            ;
+        return true;
+    }
+    // return false; <------- isn't working. Is this due to having three things being compared in the above method?
 }
+
+
+

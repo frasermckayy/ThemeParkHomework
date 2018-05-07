@@ -6,8 +6,7 @@ public class Customer {
     Customer customer;
 
 
-
-    public Customer(int age, int height, double wallet){
+    public Customer(int age, int height, double wallet) {
         this.age = age;
         this.height = height;
         this.wallet = wallet;
@@ -18,8 +17,16 @@ public class Customer {
         return age;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public int getHeight() {
         return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
     }
 
     public double getWallet() {
@@ -30,8 +37,10 @@ public class Customer {
         this.wallet = wallet;
     }
 
-    public void payforPrice(Ride ride){
+    public void payforPrice(Ride ride) {
         this.wallet -= ride.getPrice();
     }
+
+
 
 }
