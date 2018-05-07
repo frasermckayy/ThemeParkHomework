@@ -14,12 +14,12 @@ public class TeacupTest {
 
     @Test
     public void canGetPrice(){
-        assertEquals(10, teacups.getPrice(), 0.01);
+        assertEquals(15, teacups.getPrice(), 0.01);
     }
 
     @Test
     public void canGetminAge(){
-        assertEquals(11, teacups.getMinAge());
+        assertEquals(10, teacups.getMinAge());
     }
 
     @Test

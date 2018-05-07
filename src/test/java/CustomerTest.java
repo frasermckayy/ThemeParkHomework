@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class CustomerTest {
 
@@ -15,4 +18,24 @@ public class CustomerTest {
         customer3 = new Customer(9, 111, 12);
 
     }
+
+    @Test
+    public void canGetAge(){
+        assertEquals(12, customer1.getAge());
+    }
+
+    @Test
+    public void canGetHeight(){
+        assertEquals(134, customer1.getHeight());
+    }
+
+    @Test
+    public void wallet(){
+        assertEquals(15, customer1.getWallet(), 0.01);
+    }
+
+
 }
+
+
+

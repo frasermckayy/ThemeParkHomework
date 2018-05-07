@@ -15,12 +15,12 @@ public class DodgemsTest {
 
     @Test
     public void canGetPrice(){
-        assertEquals(10, dodgems.getPrice(), 0.01);
+        assertEquals(15, dodgems.getPrice(), 0.01);
     }
 
     @Test
     public void canGetminAge(){
-        assertEquals(11, dodgems.getMinAge());
+        assertEquals(10, dodgems.getMinAge());
     }
 
     @Test
