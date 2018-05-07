@@ -9,6 +9,7 @@ public class CustomerTest {
     Customer customer1;
     Customer customer2;
     Customer customer3;
+    Rollercoaster rollercoaster;
 
 
     @Before
@@ -34,6 +35,12 @@ public class CustomerTest {
         assertEquals(15, customer1.getWallet(), 0.01);
     }
 
+    @Test
+    public void payWallet(){
+        rollercoaster = new Rollercoaster(4, 9, 120);
+        customer1.payforPrice(rollercoaster);
+        assertEquals(11, customer1.getWallet(), 0.01);
+    }
 
 }
 

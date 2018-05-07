@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699828a8-bc31-4973-8748-5e2a99b051e4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Rideable.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ride.java" afterPath="$PROJECT_DIR$/src/main/java/Ride.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rideable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rideable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rideable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,8 +64,8 @@
       <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="88">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#296#297#0" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -83,19 +82,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CustomerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="-187">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -507,13 +505,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Rollercoaster.java" />
         <option value="$PROJECT_DIR$/src/test/java/RollercoasterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DodgemsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TeacupTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ride.java" />
         <option value="$PROJECT_DIR$/src/main/java/CustomerCanRide.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rideable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
       </list>
     </option>
   </component>
@@ -608,7 +606,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in ThemePark_test">
+  <component name="RunManager" selected="JUnit.CustomerTest.payWallet">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -650,14 +648,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CustomerTest.canGetAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.payWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ThemePark_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="canGetAge" />
+      <option name="METHOD_NAME" value="payWallet" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -791,19 +789,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest.canGetAge" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in ThemePark_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DodgemsTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DodgemsTest.canGetPrice" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DodgemsTest.canGetminAge" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in ThemePark_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DodgemsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DodgemsTest.canGetPrice" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DodgemsTest.canGetminAge" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerTest.payWallet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in ThemePark_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DodgemsTest.canGetminAge" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DodgemsTest.canGetPrice" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DodgemsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerTest.canGetAge" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest.payWallet" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in ThemePark_test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DodgemsTest.canGetminAge" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DodgemsTest.canGetPrice" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DodgemsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -836,6 +834,9 @@
     <history-entry file="CustomerTest_canGetAge - 2018.05.07 at 20h 01m 47s.xml">
       <configuration name="CustomerTest.canGetAge" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomerTest_payWallet - 2018.05.07 at 21h 56m 20s.xml">
+      <configuration name="CustomerTest.payWallet" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="DodgemsTest - 2018.05.07 at 20h 58m 26s.xml">
       <configuration name="DodgemsTest" configurationId="JUnit" />
     </history-entry>
@@ -844,9 +845,6 @@
     </history-entry>
     <history-entry file="DodgemsTest_canGetminAge - 2018.05.07 at 20h 58m 56s.xml">
       <configuration name="DodgemsTest.canGetminAge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RollercoasterTest - 2018.05.07 at 17h 23m 14s.xml">
-      <configuration name="RollercoasterTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RollercoasterTest - 2018.05.07 at 17h 24m 06s.xml">
       <configuration name="RollercoasterTest" configurationId="JUnit" />
@@ -867,9 +865,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -962,22 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TeacupTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1042,10 +1024,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rideable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="88">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#296#297#0" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
@@ -1061,11 +1051,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rideable.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="-187">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
