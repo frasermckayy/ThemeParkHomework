@@ -4,4 +4,5 @@ public class Rollercoaster extends Ride{
         super(price, minAge, height);
     }
 
+
 }

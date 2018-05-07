@@ -14,6 +14,14 @@ public abstract class Ride {
         return price;
     }
 
+    public int getMinAge() {
+        return minAge;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
     public void setMinAge(int minAge) {
         this.minAge = minAge;
     }
