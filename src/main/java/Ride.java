@@ -11,7 +11,6 @@ public abstract class Ride {
 
     }
 
-
     public double getPrice(double price) {
         return price;
     }
