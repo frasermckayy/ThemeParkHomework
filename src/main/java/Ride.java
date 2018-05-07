@@ -8,10 +8,9 @@ public abstract class Ride {
         this.price = price;
         this.minAge = minAge;
         this.height = height;
-
     }
 
-    public double getPrice(double price) {
+    public double getPrice() {
         return price;
     }
 
